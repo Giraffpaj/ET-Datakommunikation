@@ -1,6 +1,4 @@
 # UDP Client
-# Anders Nelsson ET1530 BTH
-# Exempel från kursbok
 import time
 from socket import *
 #serverName = 'hostname'
@@ -14,9 +12,6 @@ serverPort = 80
 
 # create UDP socket
 clientSocket = socket(AF_INET, SOCK_DGRAM)
-
-# get input from keyboard
-message = 'kaka'
 
 count = 0
 while (time.clock() <= 15.0 and count <=100000):
